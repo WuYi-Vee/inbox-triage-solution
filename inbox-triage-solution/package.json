@@ -1,0 +1,12 @@
+{
+  "name": "inbox-triage-solution",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}

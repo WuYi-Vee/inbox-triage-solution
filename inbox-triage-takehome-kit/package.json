@@ -1,0 +1,14 @@
+{
+  "name": "inbox-triage-takehome-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter kit for the Inbox Triage take-home (AI Automation Engineer): mock ticketing API + webhook replay/verification.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "downstream": "node downstream/server.js",
+    "downstream:stable": "FAIL_RATE=0 TIMEOUT_RATE=0 RATE_LIMIT_EVERY=0 node downstream/server.js",
+    "replay": "node replay/replay.js",
+    "replay:reset": "node replay/replay.js --reset",
+    "replay:quiet": "node replay/replay.js --quiet"
+  }
+}
